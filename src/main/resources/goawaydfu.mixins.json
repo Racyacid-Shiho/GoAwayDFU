@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "cn.racyacid.goawaydfu.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"SchemasMixin",
+		"UtilMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

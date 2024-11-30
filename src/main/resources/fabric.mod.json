@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "goawaydfu",
+	"version": "${version}",
+	"name": "GoAwayDFU!",
+	"description": "Removed DFU\nOriginal project: https://github.com/VazkiiModsArchive/DataFixerSlayer\nOriginal homepage: https://www.curseforge.com/minecraft/mc-mods/datafixerslayer",
+	"authors": [
+		"Racyacid",
+		"Vazkii(Original author)"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Racyacid-Shiho/GoAwayDFU"
+	},
+	"license": "Creative Commons 3.0 BY-NC-SA",
+	"environment": "*",
+	"mixins": [
+		"goawaydfu.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.19.4",
+		"java": ">=21"
+	}
+}
